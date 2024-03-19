@@ -6,4 +6,4 @@ target/
 book/
 rust-book/
 rustlings/*
-!rustlings/exercises/*
+!rustlings/exercises/
