@@ -18,7 +18,7 @@ fn creating_pushing_reading() {
 
 }
 
-fn scope() {
+fn borrowing() {
     let mut v = vec![1, 2, 3, 4, 5];
     // let first = &v[0]; // mutable borrow occurs here!
     let first = v[0];  // compiles if not mutable, i.e., not borrowed/referenced
@@ -28,6 +28,6 @@ fn scope() {
 
 pub fn examples() {
     creating_pushing_reading();
-    scope();
+    borrowing();
 }
 
