@@ -42,8 +42,25 @@ fn iterating() {
     println!("v: {:?}", v);
 }
 
+// vectors can only store values of the same type
+// fortunately we can create an enum type to have vectors containing multiple types under the enum
+enum Spreadsheet{
+    IntCell(i32),
+    FloatCell(f64),
+    TextCell(String),
+}
+
+fn multiple_types() {
+    let row = vec![
+        Spreadsheet::IntCell(23),
+        Spreadsheet::TextCell(String::from("spreadsheet stuff")),
+        Spreadsheet::FloatCell(0.231),
+    ];
+}
+
 pub fn examples() {
     creating_pushing_reading();
     borrowing();
     iterating();
+    multiple_types();
 }
