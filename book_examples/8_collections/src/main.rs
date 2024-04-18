@@ -6,7 +6,9 @@
 // Hash maps associate values with keys
 
 mod vectors;
+mod strings;
 
 fn main() {
-    vectors::examples();
+    // vectors::examples();
+    strings::examples();
 }
