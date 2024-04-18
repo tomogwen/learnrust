@@ -7,8 +7,10 @@
 
 mod vectors;
 mod strings;
+mod hashmaps;
 
 fn main() {
-    // vectors::examples();
+    vectors::examples();
     strings::examples();
+    hashmaps::examples();
 }
