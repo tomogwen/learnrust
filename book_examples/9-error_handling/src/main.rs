@@ -7,5 +7,5 @@ mod recoverable;
 
 fn main() {
     // panic::examples();
-    /recoverable::examples();
+    recoverable::examples();
 }
