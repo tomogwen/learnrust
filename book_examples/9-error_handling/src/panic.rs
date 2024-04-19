@@ -6,10 +6,9 @@
 // [profile.release]
 // panic = 'abort'
 
-
 pub fn examples() {
-   // panic!("crash and burn");
+    // panic!("crash and burn");
 
-   let v = vec![1, 2, 3];
-   v[99];  // oob error
+    let v = vec![1, 2, 3];
+    v[99]; // oob error
 }
