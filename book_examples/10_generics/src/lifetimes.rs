@@ -11,10 +11,11 @@ fn dangling() {
         let x = 5;
         r = &x;
     }
-
     // println!("r: {}", r);
     // with the println this code won't compile as x ends at the ending of the inner scope
     // if r was still a reference to x we'd have a dangling reference
+    // the borrow checker checks to see if the lifetime of r is longer than the lifetime of the memory it refers to (x)
+    // in this case (with println! uncommented) its not, so the program is rejected
 }
 
 pub fn examples() {
