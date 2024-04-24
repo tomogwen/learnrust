@@ -14,7 +14,7 @@ fn dangling() {
 
     // println!("r: {}", r);
     // with the println this code won't compile as x ends at the ending of the inner scope
-    // if r was still a reference to x we'd have a dangling reference 
+    // if r was still a reference to x we'd have a dangling reference
 }
 
 pub fn examples() {
