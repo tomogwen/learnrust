@@ -4,9 +4,11 @@
 mod generics;
 mod traits1;
 mod traits2;
+mod lifetimes;
 
 fn main() {
     // generics::examples();
     // traits1::examples();
-    traits2::examples();
+    // traits2::examples();
+    lifetimes::examples();
 }
