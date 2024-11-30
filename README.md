@@ -5,11 +5,11 @@ A repo to track the resources I'm using to learn Rust. This includes:
 - the [Rustlings](https://github.com/rust-lang/rustlings) exercises, and
 - completing challenges from the [CodeCrafters](https://app.codecrafters.io/catalog) series in Rust.
 
-## HTTP Server
+## 🖥️ HTTP Server
 
 See `codecrafters/http-server` for my basic implementation of an HTTP server, following the CodeCrafters challenge.
 
-- Run the server, pointing at a local directory with:
+- Run the server pointing at a local directory with:
 ```
 cargo run -- --directory "/tmp/dir/"
 ```
