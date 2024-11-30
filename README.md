@@ -20,7 +20,7 @@ curl -X POST http://localhost:4221/files/file_name -d "file_contents"
 curl -i http://localhost:4221/files/file_name
 ```
 
-- Echo or view your user agent with:
+- Echo text or view your user agent with:
 ```
 curl -i http://localhost:4221/echo/something_to_echo
 curl -i http://localhost:4221/user-agent
